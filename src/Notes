@@ -1,3 +1,11 @@
 Section:3
 how to make components resusable?
 copy and paste the line in App.js 
+To convert date into human readable form, use .toLocaleString();
+
+
+multiple components - splitting task into smaller projects
+Since, we need to style date seperately, it will be easier to split ExpenseItem into 2 components.
+1. ExpenseItem class iteself
+2. Date
+
