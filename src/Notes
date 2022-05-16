@@ -60,3 +60,5 @@ WORKING WITH STATE
         - calling a function does not just assign a new value to some variable but the component function 
           in which you called that function will be executed again. - evaluates the JSX code again, and detects changes
           onto the screen.
+
+    State is seperated on a per component instance basis     
