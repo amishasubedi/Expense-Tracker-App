@@ -34,3 +34,17 @@ This function accepts a single props (which basically stands for properties)
 object argument with data and returns a React element, they are called function
 components as they are js functions.
 
+
+React State and Working with Events:
+    - User Interaction
+       -> handling Events
+    - updating UI and working with "State"
+    - Components and State
+
+ 1. Listening to events and working with event handlers
+ In React, we add event listener by going to the JSX element, and there we add a special prop.
+ <button onCLick = {function click() {console.log("ok")}}> Change button </button>
+
+ A function should be passed as a value for onClick
+
+2. How component functions are executed
