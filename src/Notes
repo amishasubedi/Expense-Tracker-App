@@ -47,4 +47,16 @@ React State and Working with Events:
 
  A function should be passed as a value for onClick
 
-2. How component functions are executed
+WORKING WITH STATE
+    - if you have a variable in your component function, and that variable changes, React ignores it
+      overall component function does not execute it again just because some variable changed.
+    - Component function does not execute just because some event handlers occured.
+    - To run the component again, import React, { useState } from 'react';
+    - useState always returns an array with exactly two elements. 
+      first element is the current state value, 
+      second element is a function for updating that value.
+
+      So, when updating value, we just call updating function instead of assigning value using =. but Why??
+        - calling a function does not just assign a new value to some variable but the component function 
+          in which you called that function will be executed again. - evaluates the JSX code again, and detects changes
+          onto the screen.
