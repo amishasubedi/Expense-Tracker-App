@@ -3,11 +3,34 @@ how to make components resusable?
 copy and paste the line in App.js 
 To convert date into human readable form, use .toLocaleString();
 
+props - object that stores the value of attributes of tag and work similar to the HTML.
+      - gives a way to pass data from one component to other components
+
+      function Alu (props) - props passed in function (same way as arguments passed in function)
+
 
 multiple components - splitting task into smaller projects
 Since, we need to style date seperately, it will be easier to split ExpenseItem into 2 components.
-1. ExpenseItem class iteself
-2. Date
+    1. ExpenseItem class iteself
+    2. Date
 
 Card - container look
+
+Alternative way of writing function: -> use arrow function (JS thing)
+
+for instance:
+
+        const App = () => {
+            // 
+        }
+
+Function and Class Components
+
+function Check (props) {
+    return <h1> k cha, {props.name} </h1>
+}
+
+This function accepts a single props (which basically stands for properties)
+object argument with data and returns a React element, they are called function
+components as they are js functions.
 
