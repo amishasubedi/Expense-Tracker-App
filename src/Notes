@@ -68,4 +68,11 @@ WORKING WITH STATE
 
 
 
-    
+    Lifting the State up: moving data from child to parent component
+         App
+  Expenses   NewExpenses   
+
+  No direct communication between Expenses and NewExpenses;
+  So, NewExpenses - App (communication)- Lifting the State up
+  App-Expenses (communication) - pass state data via props
+  A    

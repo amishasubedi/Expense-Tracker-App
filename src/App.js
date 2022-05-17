@@ -40,6 +40,7 @@ function App() {
   // );
 
   //JSX CODE
+  // access to both Expenses and NewExpenses component
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
