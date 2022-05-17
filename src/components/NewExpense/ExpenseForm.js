@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ExpenseForm.css";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   // mutliple states vs single state
   // each state work seperately
   const [enteredTitle, setEnteredTitle] = useState("");
@@ -53,7 +53,8 @@ const ExpenseForm = () => {
     };
 
     // Two-way binding when working with forms
-    console.log(expenseData);
+    // console.log(expenseData);
+    props.onSaveExpenseData(); // this function is defined in NewExpense.js, pointer edit is passed in that component.
     setEnteredTitle(""); // clearing input after form is submitted
     setEnteredAmount("");
     setEnteredDate("");

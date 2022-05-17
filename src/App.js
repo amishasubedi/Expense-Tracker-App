@@ -27,6 +27,10 @@ function App() {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    // how to rendered list?
+  };
+
   // // Alternative to JSX Code - JSX is transformed like this
   // return React.createElement(
   //   "div",
@@ -38,7 +42,7 @@ function App() {
   //JSX CODE
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );

@@ -2,7 +2,7 @@ Section:3
 how to make components resusable?
 copy and paste the line in App.js 
 To convert date into human readable form, use .toLocaleString();
-
+/*
 props - object that stores the value of attributes of tag and work similar to the HTML.
       - gives a way to pass data from one component to other components
 
@@ -61,4 +61,11 @@ WORKING WITH STATE
           in which you called that function will be executed again. - evaluates the JSX code again, and detects changes
           onto the screen.
 
-    State is seperated on a per component instance basis     
+    State is seperated on a per component instance basis
+
+    Child to parent communication
+
+
+
+
+    
