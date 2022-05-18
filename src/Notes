@@ -77,4 +77,6 @@ WORKING WITH STATE
   App-Expenses (communication) - pass state data via props
   A    
 
- 
+ {props.items.map(expense => <ExpenseItem />)} 
+ -> expense mapped to ExpenseItem JSX element
+ -> transform the expense object to JSX element
