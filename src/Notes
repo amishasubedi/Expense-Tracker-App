@@ -76,3 +76,5 @@ WORKING WITH STATE
   So, NewExpenses - App (communication)- Lifting the State up
   App-Expenses (communication) - pass state data via props
   A    
+
+ 

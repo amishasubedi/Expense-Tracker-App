@@ -6,7 +6,8 @@ import "./NewExpense.css";
 const NewExpense = (props) => {
   const onSaveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
-      ...enteredExpenseData,
+      // expenseData - Expenseform.js
+      ...enteredExpenseData, // combine previous expense data with new entered expense data
       id: Math.random().toString(),
     };
     //console.log(expenseData);
